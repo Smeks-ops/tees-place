@@ -19,11 +19,12 @@ const useStyles = makeStyles({
         flexGrow: 1
     },
     footer: {
+        marginTop: '10px',
         textAlign: 'center',
     },
     section: {
-        marginTop: '20px',
-        marginBottom: '20px',
+        marginTop: '10px',
+        marginBottom: '10px',
     }
 });
 

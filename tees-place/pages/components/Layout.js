@@ -5,12 +5,13 @@ import { Container } from '@mui/system'
 import useStyles from '../../utils/styles'
 import NextLink from 'next/link';
 
-export default function Layout({title, children}) {
+export default function Layout({title, description, children}) {
     const classes = useStyles();
   return (
     <div>
         <Head>
             <title>{title? `${title} - Tees-Place` : 'Tees-Place'}</title>
+            {description && <meta name="description" content={description} />}
         </Head>
         <AppBar position = "static" className ={classes.navigator}>
             <Toolbar>
@@ -22,10 +23,10 @@ export default function Layout({title, children}) {
                 <div className={classes.grow}></div>
                 <div>
                     <NextLink href="/cart" passHref>
-                        <Link>Cart</Link>
+                        <Link>Cart  </Link>
                     </NextLink>
                     <NextLink href="/login" passHref>
-                        <Link> Login</Link>
+                        <Link>  Login</Link>
                     </NextLink>
                 </div>
             </Toolbar>

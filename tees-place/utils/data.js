@@ -1,77 +1,78 @@
 const data = {
     products: [
         {
-            name: "shirt",
-            slug: "shirt",
-            category: "shirts",
+            name: "Black dress",
+            slug: "black-dress",
+            category: "dress",
             price: 10,
-            brand: "nike",
+            brand: "obioma",
             rating: 4.5,
             numReviews: 10,
             countInStock: 6,
-            description: "this is a shirt",
-            image: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+            description: "work appropriate black dress",
+            image: "/images/black.jpg"
         },
         {
-            name: "tight shirt",
-            slug: "tight-shirt",
-            category: "shirts",
+            name: "Red dress",
+            slug: "red-dress",
+            category: "dress",
             price: 10,
-            brand: "adidas",
+            brand: "obioma",
             rating: 4.5,
             numReviews: 10,
             countInStock: 6,
-            description: "this is a shirt",
-            image: "/images/shirt1.jpg"
+            description: "work appropriate red dress",
+            image: "/images/red2.jpg"
         },
         {
-            name: "black shirt",
-            slug: "black-shirt",
-            category: "shirts",
+            name: "White dress",
+            slug: "white-dress",
+            category: "dress",
             price: 10,
-            brand: "gucci",
+            brand: "obioma",
             rating: 4.5,
             numReviews: 10,
             countInStock: 6,
-            description: "this is a shirt",
-            image: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+            description: "work appropriate white dress",
+            image: "/images/white.jpg"
         },
         {
-            name: "roundneck shirt",
-            slug: "roundneck-shirt",
-            category: "pants",
+            name: "Grey dress",
+            slug: "grey-dress",
+            category: "dress",
             price: 10,
-            brand: "bucket-fit",
+            brand: "obioma",
             rating: 4.5,
             numReviews: 10,
             countInStock: 6,
-            description: "this is a shirt",
-            image: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+            description: "work appropriate grey dress",
+            image: "/images/grey.jpg"
         },
         {
-            name: "button up shirt",
-            slug: "button-up-shirt",
-            category: "pants",
+            name: "Olive Green dress",
+            slug: "olive-green-dress",
+            category: "dress",
             price: 10,
-            brand: "threadlers",
+            brand: "obioma",
             rating: 4.5,
             numReviews: 10,
             countInStock: 6,
-            description: "this is a shirt",
-            image: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+            description: "work appropriate green dress",
+            image: "/images/olive-green.jpg"
         },
         {
-            name: "easy open trouser",
-            slug: "easy-open-trouser",
-            category: "pants",
+            name: "Onion dress",
+            slug: "onion-dress",
+            category: "dress",
             price: 10,
-            brand: "threadlers",
+            brand: "obioma",
             rating: 4.5,
             numReviews: 10,
             countInStock: 6,
-            description: "this is a shirt",
-            image: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+            description: "work appropriate onion dress",
+            image: "/images/onion.jpg"
         },
+        
         
     ]
 }
