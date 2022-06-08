@@ -1,6 +1,8 @@
 import { Card, CardActionArea, CardMedia, Grid, CardContent, Typography, CardActions , Button } from '@mui/material'
 import Layout from './components/Layout'
 import data from '../utils/data'
+import NextLink from 'next/link';
+
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
         {data.products.map((product) => (
           <Grid item md={4} key={product.name}>
             <Card>
+              <NextLink href={`/product/${product.slug}`} passHref>
               <CardActionArea>
                 <CardMedia component="img" image={product.image} title={product.name} />
                 <CardContent>
@@ -19,6 +22,7 @@ export default function Home() {
                   </Typography>
                 </CardContent>
               </CardActionArea>
+              </NextLink>
               <CardActions>
                 <Typography>
                   ${product.price}
