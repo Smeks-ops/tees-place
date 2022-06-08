@@ -1,21 +1,35 @@
 import React from 'react'
 import Head from 'next/head'
-import { AppBar, Toolbar, Typography } from '@mui/material'
+import { AppBar, Toolbar, Typography, Link } from '@mui/material'
 import { Container } from '@mui/system'
 import useStyles from '../../utils/styles'
+import NextLink from 'next/link';
 
-export default function Layout({children}) {
+export default function Layout({title, children}) {
     const classes = useStyles();
   return (
     <div>
         <Head>
-            <title>Tees-Place</title>
+            <title>{title? `${title} - Tees-Place` : 'Tees-Place'}</title>
         </Head>
         <AppBar position = "static" className ={classes.navigator}>
             <Toolbar>
-                <Typography>Tees-Place</Typography>
+                <NextLink href="/" passHref>
+                    <Link>                
+                        <Typography className={classes.brand}>Tees-Place</Typography>
+                    </Link>
+                </NextLink>
+                <div className={classes.grow}></div>
+                <div>
+                    <NextLink href="/cart" passHref>
+                        <Link>Cart</Link>
+                    </NextLink>
+                    <NextLink href="/login" passHref>
+                        <Link> Login</Link>
+                    </NextLink>
+                </div>
             </Toolbar>
-        </AppBar>
+      </AppBar>
         <Container className={classes.main}>{children}</Container>
         <footer className={classes.footer}>
             <Typography>All rights reserved. Tees-Place.</Typography>

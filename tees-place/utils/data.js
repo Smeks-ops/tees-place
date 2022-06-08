@@ -2,6 +2,7 @@ const data = {
     products: [
         {
             name: "shirt",
+            slug: "shirt",
             category: "shirts",
             price: 10,
             brand: "nike",
@@ -13,6 +14,7 @@ const data = {
         },
         {
             name: "tight shirt",
+            slug: "tight-shirt",
             category: "shirts",
             price: 10,
             brand: "adidas",
@@ -24,6 +26,7 @@ const data = {
         },
         {
             name: "black shirt",
+            slug: "black-shirt",
             category: "shirts",
             price: 10,
             brand: "gucci",
@@ -35,6 +38,7 @@ const data = {
         },
         {
             name: "roundneck shirt",
+            slug: "roundneck-shirt",
             category: "pants",
             price: 10,
             brand: "bucket-fit",
@@ -46,6 +50,7 @@ const data = {
         },
         {
             name: "button up shirt",
+            slug: "button-up-shirt",
             category: "pants",
             price: 10,
             brand: "threadlers",
@@ -57,6 +62,7 @@ const data = {
         },
         {
             name: "easy open trouser",
+            slug: "easy-open-trouser",
             category: "pants",
             price: 10,
             brand: "threadlers",
