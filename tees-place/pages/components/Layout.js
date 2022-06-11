@@ -1,11 +1,16 @@
 import React from 'react'
 import Head from 'next/head'
-import { AppBar, Toolbar, Typography, Link } from '@mui/material'
+import { AppBar, Toolbar, Typography, Link, createTheme } from '@mui/material'
 import { Container } from '@mui/system'
 import useStyles from '../../utils/styles'
 import NextLink from 'next/link';
 
 export default function Layout({title, description, children}) {
+    const theme = createTheme({
+        typography: {
+            
+        }
+    });
     const classes = useStyles();
   return (
     <div>
